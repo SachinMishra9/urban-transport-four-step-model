@@ -1,0 +1,78 @@
+[
+  {
+    "scenario": "Base",
+    "person_trips": 58541,
+    "mode_share_pct": {
+      "car": 63.7,
+      "bus": 17.8,
+      "walk/cycle": 18.5
+    },
+    "car_share_to_cbd_pct": 59.1,
+    "mean_trip_km": 3.38,
+    "vehicle_km": 100305,
+    "vehicle_hours": 2741,
+    "avg_network_speed_kmph": 36.6,
+    "links_over_90pct_capacity": 12,
+    "max_vc": 1.32,
+    "fw_iterations": 500,
+    "fw_final_gap": 0.000179,
+    "beta": 0.1588
+  },
+  {
+    "scenario": "Bus priority lanes + 5-min headway",
+    "person_trips": 58541,
+    "mode_share_pct": {
+      "car": 60.5,
+      "bus": 22.1,
+      "walk/cycle": 17.4
+    },
+    "car_share_to_cbd_pct": 55.3,
+    "mean_trip_km": 3.41,
+    "vehicle_km": 95480,
+    "vehicle_hours": 2560,
+    "avg_network_speed_kmph": 37.3,
+    "links_over_90pct_capacity": 11,
+    "max_vc": 1.25,
+    "fw_iterations": 500,
+    "fw_final_gap": 0.000115,
+    "beta": 0.1588
+  },
+  {
+    "scenario": "CBD parking charge (+INR 100)",
+    "person_trips": 58541,
+    "mode_share_pct": {
+      "car": 52.2,
+      "bus": 23.8,
+      "walk/cycle": 24.0
+    },
+    "car_share_to_cbd_pct": 30.0,
+    "mean_trip_km": 3.3,
+    "vehicle_km": 79851,
+    "vehicle_hours": 2136,
+    "avg_network_speed_kmph": 37.4,
+    "links_over_90pct_capacity": 10,
+    "max_vc": 1.2,
+    "fw_iterations": 433,
+    "fw_final_gap": 9.91e-05,
+    "beta": 0.1588
+  },
+  {
+    "scenario": "Combined package",
+    "person_trips": 58541,
+    "mode_share_pct": {
+      "car": 49.2,
+      "bus": 28.7,
+      "walk/cycle": 22.1
+    },
+    "car_share_to_cbd_pct": 27.1,
+    "mean_trip_km": 3.35,
+    "vehicle_km": 75531,
+    "vehicle_hours": 1991,
+    "avg_network_speed_kmph": 37.9,
+    "links_over_90pct_capacity": 8,
+    "max_vc": 1.13,
+    "fw_iterations": 331,
+    "fw_final_gap": 9.61e-05,
+    "beta": 0.1588
+  }
+]
